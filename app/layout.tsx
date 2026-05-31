@@ -11,12 +11,12 @@ const _courierPrime = Courier_Prime({ weight: ["400", "700"], subsets: ["latin"]
 const _ibmPlexSans = IBM_Plex_Sans({ weight: ["300", "400", "500", "600"], subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Moka - La heladeria que dejo el papel atras',
+  title: 'Moka una solucion para tu negocio',
   description: 'Software de gestion de pedidos para heladerias pequenas y negocios de comida rapida que quieren operar sin papel, con WhatsApp, reportes y pedidos en tiempo real.',
   keywords: ['Moka', 'software para heladerias', 'gestion de pedidos', 'WhatsApp Business', 'facturacion para restaurantes'],
   authors: [{ name: 'Davhumpf' }],
   openGraph: {
-    title: 'Moka - La heladeria que dejo el papel atras',
+    title: 'Moka una solucion para tu negocio',
     description: 'Gestiona pedidos, cocina, caja, WhatsApp y facturacion en una sola herramienta para heladerias pequenas.',
     type: 'website',
     url: 'https://moka.app',
@@ -24,25 +24,17 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Moka - La heladeria que dejo el papel atras',
+    title: 'Moka una solucion para tu negocio',
     description: 'Pedidos en tiempo real, alertas por WhatsApp, reportes automaticos y facturas en PDF.',
   },
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/moka-icon.png',
+        type: 'image/png',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/moka-icon.png',
   },
 }
 

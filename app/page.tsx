@@ -148,7 +148,7 @@ export default function MokaPage() {
               transition: "opacity 1s cubic-bezier(0.16,1,0.3,1) 0ms, filter 1s cubic-bezier(0.16,1,0.3,1) 0ms, transform 1s cubic-bezier(0.16,1,0.3,1) 0ms",
             }}
           >
-            Moka<br />la heladeria<br />que dejo el<br />papel atras.
+            Moka<br />una solucion<br />para tu<br />negocio.
           </h1>
 
           {/* 3 metrics — staggered after title */}
@@ -624,7 +624,7 @@ export default function MokaPage() {
         />
         <div className="relative z-10 max-w-2xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight leading-[1.05] mb-6">
-            Deja el papel<br />atras con Moka.
+            Moka una solucion<br />para tu negocio.
           </h2>
           <p className="text-sm text-black/45 leading-relaxed mb-10">
             Pedidos claros, cocina coordinada, cliente informado y reportes para decidir mejor cada dia.
